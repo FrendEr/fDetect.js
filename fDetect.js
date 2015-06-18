@@ -4,7 +4,7 @@
  * @author 		Frend
  *
  * @gist		
- * @git 			
+ * @git 		https://github.com/FrendEr/fDetect.js.git	
  */
 
 !function(root, factory) {
