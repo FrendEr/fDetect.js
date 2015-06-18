@@ -4,7 +4,7 @@
  * @author 		Frend
  *
  * @gist		
- * @git 		https://github.com/FrendEr/fDetect.js.git	
+ * @git 			
  */
 
 !function(root, factory) {
@@ -138,11 +138,11 @@
 	function _getDeviceVersion(device) {
 		switch (device) {
 			case 'ios' : 
-				return ua.match(regExpMap.iosVersion)[1];
+				return ua.match(regExpMap.iosVersion) && ua.match(regExpMap.iosVersion)[1];
 			case 'android':
-				return ua.match(regExpMap.androidVersion)[2];
+				return ua.match(regExpMap.androidVersion) && ua.match(regExpMap.androidVersion)[2];
 			case 'winPhone':
-				return ua.match(regExpMap.edgeVersion)[1] || ua.match(regExpMap.winPhoneVersion)[1];
+				return ua.match(regExpMap.edgeVersion) && ua.match(regExpMap.edgeVersion)[1] || ua.match(regExpMap.winPhoneVersion) && ua.match(regExpMap.winPhoneVersion)[1];
 			default:
 				break;
 		}
@@ -196,15 +196,15 @@
 	function _getBrowserVersion(browser) {
 		switch (browser) {
 			case 'chrome' : 
-				return ua.match(regExpMap.chromeVersion)[1];
+				return ua.match(regExpMap.chromeVersion) && ua.match(regExpMap.chromeVersion)[1];
 			case 'safari':
-				return ua.match(regExpMap.safariVersion)[1];
+				return ua.match(regExpMap.safariVersion) && ua.match(regExpMap.safariVersion)[1];
 			case 'firefox':
-				return ua.match(regExpMap.firefoxVersion)[1];
+				return ua.match(regExpMap.firefoxVersion) && ua.match(regExpMap.firefoxVersion)[1];
 			case 'opera':
-				return ua.match(regExpMap.safariVersion)[1] || ua.match(regExpMap.operaVersion)[1];
+				return ua.match(regExpMap.safariVersion) && ua.match(regExpMap.safariVersion)[1] || ua.match(regExpMap.operaVersion) && ua.match(regExpMap.operaVersion)[1];
 			case 'ie':
-				return ua.match(regExpMap.ieVersion)[1];
+				return ua.match(regExpMap.ieVersion) && ua.match(regExpMap.ieVersion)[1];
 			default:
 				break;
 		}
