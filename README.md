@@ -11,6 +11,24 @@ demo：[http://frender.github.io/fDetect.js](http://frender.github.io/fDetect.js
 ```
 ```javascript
 console.log(window.fDetect);
+/*
+{
+    "browser": {"name":"chrome","version":"43.0"},
+    "isChrome": true,
+    "isSafari": false,
+    "isFirefox": false,
+    "isOpera": false,
+    "isIE": false,
+    
+    "device": {"name":"unknow","version":"unknow"},
+    "isIOS": false,
+    "isAndroid": false,
+    "isWinPhone": false,
+    
+    "browser_version": 0,
+    "device_version": 0
+}
+*/
 ```
 
 ### amd
@@ -18,7 +36,24 @@ console.log(window.fDetect);
 require(['fDetect'], function(fDetect) {
 
     console.log(fDetect);
-
+    /*
+    {
+        "browser": {"name":"chrome","version":"43.0"},
+        "isChrome": true,
+        "isSafari": false,
+        "isFirefox": false,
+        "isOpera": false,
+        "isIE": false,
+    
+        "device": {"name":"unknow","version":"unknow"},
+        "isIOS": false,
+        "isAndroid": false,
+        "isWinPhone": false,
+    
+        "browser_version": 0,
+        "device_version": 0
+    }
+*/
 });
 ```
 
