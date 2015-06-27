@@ -1,0 +1,25 @@
+{
+  "name": "fDetect.js",
+  "main": "fDetect.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/FrendEr/fDetect.js",
+  "authors": [
+    "FrendEr <frend.wong@gmail.com>"
+  ],
+  "description": "a plugin to detect app os,  browser and it's version",
+  "keywords": [
+    "detect",
+    "app",
+    "os",
+    "browser",
+    "version"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

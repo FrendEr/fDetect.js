@@ -1,0 +1,26 @@
+{
+  "name": "fdetect.js",
+  "version": "1.0.0",
+  "description": "a plugin to detect app os,  browser and it's version",
+  "main": "fDetect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FrendEr/fDetect.js.git"
+  },
+  "keywords": [
+    "detect",
+    "app",
+    "os",
+    "browser",
+    "version"
+  ],
+  "author": "Frend <frend.wong@gmail.com> (http://frend.cc)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FrendEr/fDetect.js/issues"
+  },
+  "homepage": "https://github.com/FrendEr/fDetect.js"
+}
