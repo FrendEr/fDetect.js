@@ -53,7 +53,7 @@ require(['fDetect'], function(fDetect) {
         "browser_version": 0,
         "device_version": 0
     }
-*/
+    */
 });
 ```
 
