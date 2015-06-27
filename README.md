@@ -5,7 +5,22 @@ demo：[http://frender.github.io/fDetect.js](http://frender.github.io/fDetect.js
 
 ## Usage
 
+### normal
+```html
+<script src="baseUrl/fDetect.js"></script>
+```
+```javascript
+console.log(window.fDetect);
+```
 
+### amd
+```javascript
+require(['fDetect'], function(fDetect) {
+
+    console.log(fDetect);
+
+});
+```
 
 ## Installation
 ```javascript
